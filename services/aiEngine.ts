@@ -92,8 +92,8 @@ export async function findMatches(date: string, league: string, country: string)
 
   try {
     const response = await ai.models.generateContent({
-     // model: "gemini-3-flash-preview",
-      model: "gemini-1.5-flash",
+      model: "gemini-3-flash-preview",
+     // model: "gemini-1.5-flash",
       contents: prompt,
       config: { 
         tools: [{ googleSearch: {} }], 
