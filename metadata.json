@@ -1,0 +1,5 @@
+{
+  "name": "FootAI",
+  "description": "A sophisticated football match tracker and AI-powered prediction engine using real-time data and Gemini reasoning.",
+  "requestFramePermissions": []
+}
